@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Yusei+Magic&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.container{
+    background-color: beige;
+    border-radius: 25px;
+    box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.1);
+    width:50%;
+    padding: 50px 20px;
+    text-align: center;
+    max-width: 100%;
+}
+
+h3{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    color: rgb(148, 141, 141);
+    margin: 0;
+    letter-spacing: 2;
+    text-transform: capitalize;
+}
+
+.joke{
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 24px;
+    letter-spacing: 1;
+    line-height: 40px;
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+.btn{
+    font-family: 'Nunito', sans-serif;
+    background-color: cornflowerblue;
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    color: cornsilk;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1), 0px 6px 6px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    font-weight: 600;
+}
